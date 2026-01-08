@@ -11,6 +11,8 @@ import {
     fetchCardData,
 } from '@/app/lib/data';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
     const {
         numberOfInvoices,
